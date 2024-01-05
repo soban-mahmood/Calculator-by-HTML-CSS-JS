@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: url(./123.jpg);
+    background-size: cover;
+}
+.calculator{
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
+    /* background: #EEF5FF; */
+    /* background-color: rgba(218, 198, 198, 0.5); */
+    
+}
+input{
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    background: rgb(255, 255, 255 ,0.3);
+    box-shadow: inset 0px 0px 8px rgb(0, 0, 0,0.5);
+    font-size: 65px;
+    text-align: right;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input::placeholder{
+color: #000;
+}
+button{
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius:50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: inset 0px 0px 8px  rgb(255, 255, 255 ,0.9);
+}
+.opreater{
+    background-color:grey;
+    color:#fff;
+    font-size:20px;
+     
+}
+.AC{
+    background-color: grey    ;
+}
+
+.del{
+    background-color: grey    ;
+}
+
+.b{
+    background-color: grey    ;
+}
+button:hover{
+    background-color: #EEF5FF;
+    color: black;
+    transition: all none ease 0.3s;
+}
